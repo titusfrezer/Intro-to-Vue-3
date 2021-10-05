@@ -15,8 +15,11 @@
       <div class="product-display">
         <div class="product-container">
           <div class="product-image">
+            <img v-bind:src="image" alt="">
             <!-- image goes here -->
+            <a v-bind:href="url">ClickMe</a>
           </div>
+
           <div class="product-info">
             <h1>{{ product }}</h1>
           </div>
